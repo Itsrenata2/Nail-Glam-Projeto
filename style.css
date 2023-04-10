@@ -255,8 +255,12 @@ body {
 }
 
 #servicos-cards img {
-    width: auto;
-    height: auto;
+    height: 24rem;
+}
+
+.card-text {
+    margin: 0;
+    height: 10rem;
 }
 
 .btn-servico {
