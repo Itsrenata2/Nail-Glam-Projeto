@@ -154,6 +154,10 @@ body {
     color: #394937;
 }
 
+.nav-link:hover {
+    color: white;
+}
+
 .navbar-collapse {
     flex-grow: 0;
 }
@@ -255,8 +259,12 @@ body {
 }
 
 #servicos-cards img {
-    width: auto;
-    height: auto;
+    height: 24rem;
+}
+
+.card-text {
+    margin: 0;
+    height: 10rem;
 }
 
 .btn-servico {
