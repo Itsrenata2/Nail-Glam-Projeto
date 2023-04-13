@@ -28,88 +28,18 @@ body {
 }
 
 /* MENU DE NAVEGAÇÃO */
-/* Botões com hover para outra cor*/
-/* BOTÃO SOBRE */
-#sobre1 {
+.nav-buttons {
     background-color: #cacecd;
     border: none;
     color:  rgb(85, 117, 81, .7);   
     cursor: pointer;
-    margin-right: 8px;
+    margin-right: 0.4vw;
     padding: 1px 5px 1px 5px;
     vertical-align: bottom;
     transition: background-color 0.15s, color 0.15s ;
 }
 
-#sobre1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* BOTÃO SERVIÇOS */
-#servicos1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s ;
-}
-
-#servicos1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* BOTÃO PITCH */
-#video1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s ;
-}
-
-#video1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* BOTÃO CONTATO */
-#contato1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s ;
-}
-
-#contato1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* BOTÃO AGENDAMENTO */
-#agende1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s;
-}
-
-#agende1:hover {
+.nav-buttons:hover {
     background-color:  rgb(85, 117, 81, .7);
     color: #cacecd; 
 }
