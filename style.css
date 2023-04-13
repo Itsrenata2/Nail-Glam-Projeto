@@ -301,3 +301,11 @@ hmtl {
     margin-bottom: 0;
     font-size: 0.7rem;
     }
+
+/* Design responsivo para mobile */
+@media (max-width: 600px)
+{
+    #video-pitch iframe {
+        width: 80%;   
+    }
+}
