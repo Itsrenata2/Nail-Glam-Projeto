@@ -305,6 +305,20 @@ hmtl {
 /* Design responsivo para mobile */
 @media (max-width: 600px)
 {
+    #sobre {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #img-manicure img {
+        width: 85vw;
+        margin-left: 2vw;
+    }
+
+    #sobre-txt {
+        width: 85vw;
+    }
+
     #video-pitch iframe {
         width: 80%;   
     }
