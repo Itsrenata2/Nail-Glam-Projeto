@@ -319,6 +319,14 @@ hmtl {
         width: 85vw;
     }
 
+    #servicos h2 {
+        width: 80vw;
+    }
+
+    #pitch-tit h1 {
+        width: 80vw;
+    }
+
     #video-pitch iframe {
         width: 80%;   
     }
