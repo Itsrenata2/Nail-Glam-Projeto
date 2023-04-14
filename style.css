@@ -343,4 +343,10 @@ hmtl {
     #video-pitch iframe {
         width: 80%;   
     }
+
+    #navegacao *{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
 }
