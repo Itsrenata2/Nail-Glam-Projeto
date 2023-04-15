@@ -19,8 +19,6 @@ hmtl {
     font-size: 100%;
 }
 
-
-
 /* MENU DE NAVEGAÇÃO */
 .nav-buttons {
     background-color: #cacecd;
@@ -352,4 +350,23 @@ hmtl {
         text-align: center;
     }
 
+}
+
+@media (max-width: 620px){
+    .navbar-brand {
+        margin: auto;
+    }
+
+    #img-manicure img {
+        margin: 0;
+        width: 90vw;
+    }
+
+    #servicos-cards img {
+        width: 40%;
+    }
+
+    iframe {
+        max-width: 90vw;
+    }
 }
