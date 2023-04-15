@@ -296,7 +296,7 @@ hmtl {
     }
 
 /* Design responsivo para mobile */
-@media (max-width: 600px)
+@media (max-width: 1200px)
 {
     #sobre {
         flex-direction: column;
@@ -304,7 +304,7 @@ hmtl {
     }
 
     #img-manicure img {
-        width: 85vw;
+        width: 50%;
         margin-left: 2vw;
     }
 
@@ -313,7 +313,7 @@ hmtl {
     }
 
     #servicos h2 {
-        width: 80vw;
+        width: 80%;
     }
 
     #servicos-cards {
@@ -328,25 +328,28 @@ hmtl {
     .card {
         flex-direction: row;
         height: 32vh;
-        width: 90vw !important;
+        width: 80% !important;
         margin: 1vh auto;
     }
 
     .card-body {
-        width: 120vw;
+        width: 250vw;
     }
 
     #pitch-tit h1 {
         width: 80vw;
     }
 
-    #video-pitch iframe {
-        width: 80%;   
-    }
-
-    #navegacao *{
+    .nav-footer{
         display: flex;
         flex-direction: row;
-        width: 100%;
+        justify-content: space-around;
+        padding: 0;
     }
+
+    .nav-footer .nav-item{
+        width: 100%;
+        text-align: center;
+    }
+
 }
