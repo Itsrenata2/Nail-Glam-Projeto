@@ -264,13 +264,13 @@ hmtl {
     text-align: left;
 }
 
-#contato {
+#contato_footer {
     color: #ffffff;
     text-align: center;
     margin-top: 4.3vh;
 }
 
-#contato a{
+#contato_footer a{
     padding-bottom: 0.3vh;
     text-decoration: none;
     color: #ffffff;
