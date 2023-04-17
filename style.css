@@ -67,7 +67,6 @@ hmtl {
 }
 
 /* NOME LOGO */
-
 .navbar-brand { 
     font-family: 'Caveat', cursive;
     color:#394937;
@@ -76,8 +75,6 @@ hmtl {
     margin-right: 42.6 ;
     text-shadow: 0.1rem 0.1rem #afafaf;
 }
-
-
 
 .nav-link:hover {
     color: white;
