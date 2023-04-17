@@ -8,6 +8,7 @@ font-family: 'Playfair Display', serif; */
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
 }
 
 hmtl {
@@ -18,98 +19,19 @@ hmtl {
     font-size: 100%;
 }
 
-body {
-    margin: 0;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-}
-
 /* MENU DE NAVEGAÇÃO */
-/* Botões com hover para outra cor*/
-/* BOTÃO SOBRE */
-#sobre1 {
+.nav-buttons {
     background-color: #cacecd;
     border: none;
     color:  rgb(85, 117, 81, .7);   
     cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
+    margin-right: 0.4vw;
+    padding: 0.1vh 0.3vw;
     vertical-align: bottom;
     transition: background-color 0.15s, color 0.15s ;
 }
 
-#sobre1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* BOTÃO SERVIÇOS */
-#servicos1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s ;
-}
-
-#servicos1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* BOTÃO PITCH */
-#video1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s ;
-}
-
-#video1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* BOTÃO CONTATO */
-#contato1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s ;
-}
-
-#contato1:hover {
-    background-color:  rgb(85, 117, 81, .7);
-    color: #cacecd; 
-}
-
-/* BOTÃO AGENDAMENTO */
-#agende1 {
-    background-color: #cacecd;
-    border: none;
-    color:  rgb(85, 117, 81, .7);   
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 1px 5px 1px 5px;
-    vertical-align: bottom;
-    transition: background-color 0.15s, color 0.15s;
-}
-
-#agende1:hover {
+.nav-buttons:hover {
     background-color:  rgb(85, 117, 81, .7);
     color: #cacecd; 
 }
@@ -119,6 +41,19 @@ body {
 }
 
 /* CARROSSEL */
+#carrossel {
+    height: 62vh;
+    width: 100%;
+    color: #394937;
+}
+
+.carousel-image {
+    height: 62vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .bg-img-1 {
     background-image: url(img/background.jpg);
 }
@@ -131,28 +66,18 @@ body {
     background-image: url(img/background3.jpg);
 }
 
-.carousel-image {
-    height: 580px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 /* NOME LOGO */
+
 .navbar-brand { 
     font-family: 'Caveat', cursive;
     color:#394937;
-    font-size: 35px;
-    margin-left: 40px;
-    margin-right: 800px ;
-    text-shadow: 2px 2px #afafaf;
+    font-size: 2.2rem;
+    margin-left: 2.1vw;
+    margin-right: 42.6 ;
+    text-shadow: 0.1rem 0.1rem #afafaf;
 }
 
-#nav-bar {
-    height: 580px;
-    width: 100%;
-    color: #394937;
-}
+
 
 .nav-link:hover {
     color: white;
@@ -169,26 +94,27 @@ body {
     width: 370px;
     height: 180px;
     position: absolute;
-    margin-top: -380px;
-    margin-left: 120px;
-    border-radius: 5px 50px 5px 50px;
+    margin-top: -40.5vh;
+    margin-left: 6.4vw;
+    border-radius: 0.5vh 2.5vw;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 #name h1 {
     font-family: 'Caveat', cursive;
     color: #C8CDCD;
-    padding: 24px 0px 0px 30px;
-    font-weight: 700px;
-    font-size: 70px;
+    padding-top: 2.6vh;
+    padding-left: 1.6vw;
+    font-weight: 43.7rem;
+    font-size: 4.4rem;
 }
 
 #name h4 {
     font-family: 'Playfair Display', serif;
     color: #C8CDCD;
     margin: -5px;
-    padding: 0px 0px 0px 40px;
-    font-size: 20px;
+    padding-left: 2.1vw;
+    font-size: 1.25rem;
     font-weight: 100;
 }
 
@@ -203,7 +129,7 @@ body {
 #sobre-txt {
     margin: auto;
     width: 33vw;
-    margin-top: 160px;
+    margin-top: 17vh;
 }
 
 #sobre-tit {
@@ -211,29 +137,29 @@ body {
 }
 
 #sobre-par {
-    padding-top: 15px;
+    padding-top: 1.6vh;
     text-align: justify;
-    border-bottom: 1px solid #394937;
-    border-top: 1px solid #394937;
+    border-bottom: 0.1vh solid #394937;
+    border-top: 0.1vh solid #394937;
 }
 
 #sobre-par span{
     font-family: 'Caveat', cursive;
-    margin-left: 3px;
-    font-size: 18px;
+    margin-left: 0.2vw;
+    font-size: 1.1rem;
 }
 
 #sobre-tit span{
     font-family: 'Caveat', cursive;
-    margin-left: 5px;
+    margin-left: 0.2vw;
 }
 
 #img-manicure img {
     grid-area: 1 / 1 / 2 / 2;
-    margin-top: 140px;
-    margin-left: 100px;
-    width: 500px;
-    height: 400px;
+    margin-top: 15vh;
+    margin-left: 5.3vw;
+    width: 26.6vw;
+    height: 42.6vh;
     box-shadow: 15px 15px #394937d3;
 }
 
@@ -291,28 +217,28 @@ body {
     width: 33vw;
     border-bottom: 1px solid #394937;
     padding-bottom: 2vh;
-    margin-top: -60px;
+    margin-top: -6.4vh;
 }
 
 #video-pitch {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5.3vh;
 }
 
 /* RODAPÉ */
 #rodape {
     background: rgb(57, 73, 55, .5);
-    margin-top: 60px;
-    height: 350px;
+    margin-top: 6.4vh;
+    height: 100%;
 }
 
 #name-footer h1 {
     font-family: 'Caveat', cursive;
     text-align: center;
     color: #ffffff;
-    padding: 50px 0px 0px 0px;
-    font-weight: 700px;
-    font-size: 35px;
+    padding-top: 5.3vh;
+    font-weight: 43.7rem;
+    font-size: 2.2rem;
     text-shadow: 2px 2px rgb(57, 73, 55, .5);
 }
 
@@ -320,19 +246,19 @@ body {
     font-family: 'Playfair Display', serif;
     color: #ffffff;
     text-align: center;
-    padding: 0px 0px 0px 5px;
-    font-size: 15px;
+    padding-left: 0.3vw;
+    font-size: 0.9rem;
     font-weight: 100;
 }
 
 #navegacao {
     color: #ffffff;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5.3vh;
 }
 
 .nav-footer li{
-    width: 100px;
+    width: 5.3vw;
     list-style: none;
     display: inline-block;
     text-align: left;
@@ -341,11 +267,11 @@ body {
 #contato_footer {
     color: #ffffff;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 4.3vh;
 }
 
 #contato_footer a{
-    padding-bottom: 3px;
+    padding-bottom: 0.3vh;
     text-decoration: none;
     color: #ffffff;
     border-bottom: 1px solid #394937;
@@ -355,13 +281,92 @@ body {
 #empresa {
     color: #ffffff;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 4.3vh;
 }
 
 #empresa p{
-    padding-bottom: 3px;
+    padding-bottom: 0.3vh;
     text-decoration: none;
     color: #ffffff;
-    margin-top: 40px;
-    font-size: 12px;
+    margin-top: 4.3vh;
+    margin-bottom: 0;
+    font-size: 0.7rem;
     }
+
+/* Design responsivo para mobile */
+@media (max-width: 1200px)
+{
+    #sobre {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #img-manicure img {
+        width: 50%;
+        margin-left: 2vw;
+    }
+
+    #sobre-txt {
+        width: 85vw;
+    }
+
+    #servicos h2 {
+        width: 80%;
+    }
+
+    #servicos-cards {
+        flex-direction: column;
+        margin-top: 3vh;
+    }
+
+    #servicos-cards img {
+        height: 100%;
+    }
+
+    .card {
+        flex-direction: row;
+        height: 32vh;
+        width: 80% !important;
+        margin: 1vh auto;
+    }
+
+    .card-body {
+        width: 250vw;
+    }
+
+    #pitch-tit h1 {
+        width: 80vw;
+    }
+
+    .nav-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .nav-footer .nav-item{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 620px){
+    .navbar-brand {
+        margin: auto;
+    }
+
+    #img-manicure img {
+        margin: 0;
+        width: 90vw;
+    }
+
+    #servicos-cards img {
+        width: 40%;
+    }
+
+    iframe {
+        max-width: 90vw;
+    }
+}
