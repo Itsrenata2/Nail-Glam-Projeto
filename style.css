@@ -1,4 +1,4 @@
-/* FONTeS
+/* FONTES
 font-family: 'Caveat', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Lobster Two', cursive;
@@ -264,13 +264,13 @@ hmtl {
     text-align: left;
 }
 
-#contato_footer {
+#contato {
     color: #ffffff;
     text-align: center;
     margin-top: 4.3vh;
 }
 
-#contato_footer a{
+#contato a{
     padding-bottom: 0.3vh;
     text-decoration: none;
     color: #ffffff;
