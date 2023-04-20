@@ -88,7 +88,7 @@ hmtl {
 #name {
     background: #394937;
     background: radial-gradient(circle, rgba(57,73,55,1) 0%, rgba(102,147,97,1) 55%, rgba(102,147,97,1) 87%);
-    width: 370px;
+    min-width: 282px;
     height: 180px;
     position: absolute;
     margin-top: -40.5vh;
@@ -325,6 +325,7 @@ hmtl {
         height: 32vh;
         width: 80% !important;
         margin: 1vh auto;
+        overflow: hidden;
     }
 
     .card-body {
@@ -346,8 +347,12 @@ hmtl {
         width: 100%;
         text-align: center;
     }
-
-}
+    .btn-servico {
+        margin-top: 5rem;
+    }
+    .card-text{
+        height: 4rem;
+    }
 
 @media (max-width: 620px){
     .navbar-brand {
@@ -365,5 +370,9 @@ hmtl {
 
     iframe {
         max-width: 90vw;
+    }
+    .card-text {
+        font-size: 2.7vw;
+    }
     }
 }
