@@ -1,3 +1,12 @@
+/* VARIÁVEIS */
+:root {
+    --cor-primaria: #cacecd;
+    --cor-secundaria: #394937;
+    --cor-terciaria: #557551b3;
+    --cor-quaternaria: #c8cdcd;
+    --cor-quinaria: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +40,7 @@ body {
 }
 
 #titulo1 {
-    color: #ffffff;
+    color: var(--cor-quinaria);
     margin: 5px;
     font-size: 35px;
     font-weight: 100;
@@ -49,7 +58,7 @@ body {
 }
 
 #agendeja {
-    background: #394937;
+    background: var(--cor-secundaria);
     background: radial-gradient(circle, rgba(57,73,55,1) 0%, rgba(102,147,97,1) 55%, rgba(102,147,97,1) 87%);
     width: 500px;
     border-radius: 10px;
@@ -72,7 +81,7 @@ body {
 }
   
 #agendamento h3 {
-    color: #ffffff;
+    color: var(--cor-quinaria);
     padding: 15px 0px 0px 20px;
     font-size: 25px;
     font-weight: 100;
@@ -86,12 +95,12 @@ form {
 }
 
 input {
-    color: white;
+    color: var(--cor-quinaria);
     font-size: 18px;
 }
 
 select {
-    color: white;
+    color: var(--cor-quinaria);
     font-size: 15px;
     width: 100px;
 }
@@ -99,7 +108,7 @@ select {
 #nome {
     background: transparent;
     border: none;
-    border-bottom: 2px solid #cacecd;
+    border-bottom: 2px solid var(--cor-primaria);
     width: 300px;
     padding: 5px 10px 5px 10px;
     outline: 0;
@@ -108,21 +117,21 @@ select {
 #tel {
     background: transparent;
     border: none;
-    border-bottom: 2px solid rgb(202, 206, 205);
+    border-bottom: 2px solid var(--cor-primaria);
     width: 300px;
     padding: 5px 10px 5px 10px;
     outline: 0;
 }
 
 ::placeholder {
-    color: white;
+    color: var(--cor-quinaria);
     font-size: 15px;
 }
 
 .lista {
     background: transparent;
     border: none;
-    border-bottom: 2px solid rgb(202, 206, 205);
+    border-bottom: 2px solid var(--cor-primaria);
     width: 320px;
     padding: 5px 10px 5px 6px;
     outline: 0;
@@ -133,9 +142,8 @@ option {
     background: rgba(100, 100, 100, 0.3);
 }
 
-
 #submit-btn {
-    color: rgb(85, 117, 81, .8);
+    color: rgba(85, 117, 81, 0.8);
     font-weight: 700;
     outline: 0;
     width: 100px;
@@ -163,7 +171,7 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .mes ul li {
-    color: white;
+    color: var(--cor-quinaria);
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -188,7 +196,7 @@ body {font-family: Verdana, sans-serif;}
     font-weight: 800;
     margin: 0 auto;
     padding: 10px 0;
-    background-color: rgb(191, 196, 195);
+    background-color: rgb(191, 196, 195), 4%, 76%;
     width: 800px;   
 }
 
@@ -225,8 +233,6 @@ body {font-family: Verdana, sans-serif;}
 .dias li .active {
     border-radius: 100%;
     padding: 10px;
-    background:rgb(85, 117, 81, .99);
-    color: white;
+    background:rgba(85, 117, 81, 0.99);
+    color: var(--cor-quinaria);
 }
-
-/*botao calendario*/
