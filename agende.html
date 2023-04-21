@@ -16,12 +16,14 @@
   </head>
   <body>
     <section id="main">
+          <!-- Seção do título da página de agendamento-->
       <div id="agendeja">
         <h1 id="titulo1">Agende aqui seu horário!</h1>
       </div>
-
+          <!--Seção de preenchimento de dados -->
       <div id="agendamento">
         <h3>Preencha suas informações abaixo.</h3>
+          <!-- Formulário para inserção de nome e telefone -->
         <form action="">
           <input type="text" name="nome" id="nome" placeholder="Seu nome"/>
           <input
@@ -29,6 +31,7 @@
             name="telefone"
             id="tel"
             placeholder="Seu telefone"/>
+            <!--Seção do formulário para seleção de serviços e horário-->
           <select name="servicos-lista" id="servicos-lista" class="lista">
             <option value="" selected disabled hidden>Escolha o serviço</option>
             <option value="acrigel">Acrigel</option>
@@ -54,7 +57,8 @@
           <input id="submit-btn" type="submit" value="Enviar"/>
         </form>
       </div>
-
+      
+        <!-- Seção layout do calendário -->
       <div id="calendario">
         <div class="mes">
           <ul>
@@ -63,6 +67,7 @@
             <li><span style="font-size: 18px">2023</span></li>
           </ul>
         </div>
+        <!-- Listagem "desordenada" dos nomes de dias da semana e da numeração de dias -->
         <ul class="diasemana">
           <li>Seg</li>
           <li>Ter</li>
@@ -96,6 +101,7 @@
           <li>21</li>
           <li>22</li>
           <li>23</li>
+           <!-- Container para destacar o número 24 para demonstrar seleção-->
           <li><span class="active">24</span></li>
           <li>25</li>
           <li>26</li>
